@@ -1,0 +1,11 @@
+parameters:
+    level: 0
+    paths:
+        - src
+        - rules
+
+services:
+    -
+        class: Rules\NoVarAnnotationRule
+        tags:
+            - phpstan.rules.rule 
